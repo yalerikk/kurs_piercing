@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/kurs_piercing/static/css/main.cc9887de.css",
+    "main.js": "/kurs_piercing/static/js/main.ef83d659.js",
+    "static/media/molly.jpg": "/kurs_piercing/static/media/molly.75954a2d44b1198e248f.jpg",
+    "index.html": "/kurs_piercing/index.html",
+    "main.cc9887de.css.map": "/kurs_piercing/static/css/main.cc9887de.css.map",
+    "main.ef83d659.js.map": "/kurs_piercing/static/js/main.ef83d659.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc9887de.css",
+    "static/js/main.ef83d659.js"
+  ]
+}
