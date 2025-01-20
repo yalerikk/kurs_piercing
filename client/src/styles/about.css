@@ -1,0 +1,53 @@
+/* ABOUT */
+.section-padding {
+    background-color: var(--lavender);
+    max-width: 100%;
+    padding: 58px 0;
+}
+
+.section-title {
+    margin-bottom: 58px;
+}
+
+.about-container {
+    background-color: var(--my-white);
+    width: 591px;
+    height: auto;
+    max-width: 100%;
+    margin: 0 auto 50px;
+    /* Центрируем и добавляем отступ снизу */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Центрирование содержимого по горизонтали */
+}
+
+.about-p {
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+.about-image {
+    width: 333px;
+    max-width: 100%;
+    height: auto;
+    margin-top: 29.5px;
+}
+
+.about-desc {
+    margin-top: 25.66px;
+}
+
+.hello-text {
+    color: var(--pink);
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.about-text {
+    width: 510px;
+    height: auto;
+    padding: 23px 0;
+    line-height: 20px; /* Междустрочный интервал для текста */
+    text-align: justify; /* Выравнивание текста по левому краю */
+}

@@ -1,0 +1,5 @@
+export const MASTER_ROUTE = '/master'
+export const CLIENT_ROUTE = '/client'
+export const REG_ROUTE = '/reg'
+export const LOGIN_ROUTE = '/login'
+export const MAIN_ROUTE = '/'

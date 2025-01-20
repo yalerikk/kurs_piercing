@@ -1,0 +1,85 @@
+@media (max-width: 1068px) {
+    .sidebar{
+        backdrop-filter: blur(5px);
+    }
+    .navbar-nav{
+        flex-direction: row;
+    }
+}
+
+.navbar {
+    background-color: var(--my-white);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--my-white);
+    align-items: center;
+    padding: 0 104px;
+    margin: 0 auto;
+}
+
+.navbar-brand {
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: var(--text-color);
+    margin-right: 140px;
+    transition: none;
+    /* Убираем плавный переход цвета для логотипа */
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 50px;
+    padding: 0;
+}
+
+.offcanvas-title {
+    text-transform: uppercase;
+}
+
+.nav-item {
+    font-family: var(--font-family);
+    white-space: nowrap;
+}
+
+/* Стили для навигационной панели */
+.nav-link {
+    text-decoration: none;
+    color: var(--text-color);
+    transition: var(--transition);
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.nav-link.login-link {
+    color: var(--pink);
+}
+
+.nav-link:hover {
+    color: var(--blue);
+    /* Цвет ссылки при наведении */
+}
+
+.navbar-brand:hover {
+    color: inherit;
+    /* Убираем подсветку при наведении для логотипа */
+}
+
+.nav-link.login-link:hover {
+    color: var(--dark-pink);
+    /* Цвет для ссылки "Вход" при наведении */
+}
